@@ -5,9 +5,9 @@ const NewsCard = (props = {}) => {
   const { news } = props;
 
   return (
-    <div className=" card bg-base-100 rounded-xl mb-6">
+    <div className=" card bg-base-100  mb-6">
       {/* Author Header */}
-      <div className="flex items-center justify-between p-4 bg-gray-100">
+      <div className="flex items-center justify-between rounded-xl p-4 bg-gray-100">
         <div className="flex items-center gap-3">
           <img
             src={news.author.img}
