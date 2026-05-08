@@ -5,13 +5,13 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAjmPVXl3EuzZjjqhOQ9o-rT921t2jXUNo",
-  authDomain: "newspaper-alo.firebaseapp.com",
-  projectId: "newspaper-alo",
-  storageBucket: "newspaper-alo.firebasestorage.app",
-  messagingSenderId: "23581528688",
-  appId: "1:23581528688:web:35dc90d2a0ba561344dab5"
-};
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId,
+}
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
