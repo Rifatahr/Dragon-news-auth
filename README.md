@@ -1,2 +1,1 @@
-## Live Demo 
-You can view the live site here: [newspaper-alo.web.app]
+**Live Link:** [newspaper-alo.web.app](https://newspaper-alo.web.app)
